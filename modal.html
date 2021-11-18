@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .modal-body
+    {
+        height:80%;
+        width:80%;
+    }
+</style>
+<body>
+
+<div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  <center>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Donate For Cause</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+           
+            <h5 style="color:blue">Donate securely to sustainable livelihood</h5>
+                      <span>
+                        <button type="button"> ₹500</button>
+                        <button type="button"> ₹750</button>
+                        <button type="button"> ₹1000</button>
+                        <button type="button"> ₹2500</button>
+                        <button type="button"> ₹5000</button>
+                        <button type="button"> Others</button>
+                      </span>
+                       <br>
+                       <br>
+                     
+                        <input type="text" placeholder="First name and Last Name " name="fname" style="border-radius:2px;"max-width="100" required><br>
+                        <br>
+                        <input type="password" placeholder="Contact Number" name="cname" required style="border-radius:2px;"><br>
+                         <h6>All payments update will be sent on this number</h6>
+                         <input type="email" placeholder="email Address" name="email" required><br>
+                         <input type="checkbox" name="c1"> <label for="c1">I wish to avail 80G certificate for above donation.</label><br></input>
+                          <input type="checkbox" name="c1">I wish to avail 80G certificate for above donation.</input>
+                          <br><br><br><br><br><br><br><br>
+                          <button type="button" onclick="" class="btn bg-primary"style="border-radius:2px;">Proceed to pay</button>
+                  
+        </div>
+        
+
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <script src="main.js"></script>
+    <style>
+
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <img src="/images/logos.png" height="50px"width="100px"style="float:left;">
+  <a href="index.html" >Home</a>
+  <a href="about.html">About Us</a>
+  <a href="signup.html">Sign up</a>
+  <a href="#news">For NGOs</a>
+  <a href="#contact">For Corporates</a>
+  <div class="dropdown">
+    <button class="dropbtn" data-toggle="collapse">Explore a cause
+      <i class="fa fa-caret-down" data-toggle="collapse" data-target="dropbtn"></i>
+    </button>
+    <div class="row">
+    <div class="dropdown-content">
+      <div class= "col-sm-4">
+      <a href="#">Top Sector</a>
+    <div class="dropdown-content" data-toggle="collapse" data-target="dropbtn">
+          <a href="#contact">For Corporates</a>
+          <a href="#contact">For Corporates</a>
+          <a href="#contact">For Corporates</a>
+        </div>
+      </div>
+ </div>
+ 
+
+  </div> 
+</div>
+
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+<div class="dropdown">
+  <img src="/images/img_avatar.png" alt="Avatar" class="avatar" style=" padding:2px 3px;margin-top:7px;height:40px;width:40px;border-radius:50%">
+    <div class="dropdown-content">
+      <a href="#contact">My Profile</a>
+      <a href="#contact">Donate Now</a>
+      <a href="#contact">Sign out</a>
+    </div></img>
+       </div>
+</div>
+<div style="padding-left:16px">
+  
+  <p></p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
