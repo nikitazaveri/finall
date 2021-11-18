@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+      
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 16px;
+        height:300px;
+        width:350px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: grey;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 30%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      </style>
+      </head>
+      <body>
+          <!--Navigation bar starts here-->
+      <div id="nav-placeholder">
+      </div>
+      <script>
+      $(function(){
+      $("#nav-placeholder").load("navbar.html");
+      });
+      </script>
+    <!--Navigation bar ends here-->
+
+      
+      <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>The concept of corporate social responsibility (CSR) has existed in ancient India and our ancient  wisdom has framed a platform for CSR. Our rich ancient knowledge and tradition is the very basis of  modern corporate level CSR practices. Indian companies have been engaged in CSR/ charity/  philanthropy since time immemorial. The industrial families in India were strongly devoted to  philanthropically motivated, social and economic causes. Over the years, the growth of Indian  economy has given rise to individual philanthropists. The CSR movement advocates corporations to  play a role in resolving social problems due to their economic power and overarching presence in daily  life. Lately, India has gone further than any other country. In 2013, it enacted Section 135 of the Indian  Companies Act prescribing a mandatory “CSR spend of 2% of average net profits during the three  immediately preceding financial years” for all companies meeting specified financial thresholds.  According to an industry estimate, the mandatory CSR laws would apply to about 9,000-10,000  companies.</p>
+        
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+           
+            <div class="container">
+              <h2>Yamini Peter 
+                   </h2>
+              <p class="title">Lead, CSR Programmes, Partnership</p>
+              <p>Yamini is a development sector professional with 9+ years of experience<br>
+                 in the social development  sector and communications, including general<br>
+                  management of teams, product development,  marketing, business <br>operations,
+                   and strategy.
+              </p>
+              <p>abc@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+           
+            <div class="container">
+              <h2>Nikita Jani</h2>
+              <p class="title">Development Associate, Programmes and Partnership </p>
+              <p>Nikita is a Commerce graduate from Mumbai University. She started her<br>
+                 career in a shipping company  and went on to volunteer for Veerayatan,<br>
+                 an NGO working in education and health</p>
+              <p>abc@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Hrishikesh Kale</h2>
+              <p class="title">Product Lead</p>
+              <p>Hrishikesh leads product management and lies at the juncture of Business,<br>
+                 Technology & User experience. He is a problem solver who intuitively<br> brings 
+                 value proposition out of it. He lives by the mantra <br>“Creating Human Centric Products”,
+                  hence obsessed with value<br> deliverance to the  user. </p>
+              <p>abc@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        
+      
+      
+      </div>
+    </body>
+    </html>
+    
